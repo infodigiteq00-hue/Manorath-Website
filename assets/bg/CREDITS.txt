@@ -1,0 +1,35 @@
+All photos are from Pexels (free for commercial use, no attribution required: https://www.pexels.com/license/).
+Each file and its source page:
+
+Backgrounds (assets/bg/)
+- hero-warehouse.webp  https://www.pexels.com/photo/36878027/
+- refinery-night.webp  https://www.pexels.com/photo/12641124/
+- pipe-yard.webp       https://www.pexels.com/photo/33996167/
+- cat-ss.webp          https://www.pexels.com/photo/4440227/
+- cat-ms.webp          https://www.pexels.com/photo/36397980/
+- cat-nf.webp          https://www.pexels.com/photo/34573722/
+- cat-pi.webp          https://www.pexels.com/photo/36689943/
+- about.webp           https://www.pexels.com/photo/29842696/
+- quality.webp         https://www.pexels.com/photo/14838208/
+- contact.webp         https://www.pexels.com/photo/29399463/
+
+Products (assets/products/)
+- ss-pipes.webp        https://www.pexels.com/photo/12951634/
+- ss-sheets.webp       https://www.pexels.com/photo/36397989/
+- ss-rods.webp         https://www.pexels.com/photo/8940820/
+- ss-fittings.webp     https://www.pexels.com/photo/12951626/
+- ms-pipes.webp        https://www.pexels.com/photo/33791802/
+- ms-plates.webp       https://www.pexels.com/photo/7078218/
+- ms-sections.webp     https://www.pexels.com/photo/36003984/
+- ms-structural.webp   https://www.pexels.com/photo/32239084/
+- nf-aluminium.webp    https://www.pexels.com/photo/7078237/
+- nf-copper.webp       https://www.pexels.com/photo/28169591/
+- nf-brass.webp        https://www.pexels.com/photo/8327959/
+- nf-products.webp     https://www.pexels.com/photo/19825178/
+- pi-fittings.webp     https://www.pexels.com/photo/36325392/
+- pi-clamps.webp       https://www.pexels.com/photo/29248902/
+- pi-hangers.webp      https://www.pexels.com/photo/23286082/
+- pi-brackets.webp     https://www.pexels.com/photo/36261448/
+
+These are stock photos chosen to show the kind of material, not Manorath's own stock.
+Swap in the company's own yard and dispatch photos when they are available.

@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manorath Enterprises Pvt. Ltd. · Steel, metals &amp; piping, delivered to site</title>
+<meta name="description" content="Manorath Enterprises Private Limited supplies stainless steel, mild steel, aluminium, copper, brass, pipe fittings and pipe supports for industrial, infrastructure and government projects across India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- fonts load without holding up the page or its scripts -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Cinzel:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Cinzel:wght@600;700&display=swap"></noscript>
+<link rel="stylesheet" href="css/style.css?v={{v}}">
+<link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+
+<canvas class="sparks" data-sparks aria-hidden="true"></canvas>
+<div class="cursor" data-cursor-el aria-hidden="true"><i></i><span data-cursor-label></span></div>
+
+<header class="hd" data-header>
+  <a class="hd__brand" href="#top" aria-label="Manorath Enterprises, home">
+    <img src="assets/mark.webp" alt="" width="277" height="190">
+    <span><b>Manorath</b><small>Enterprises Pvt. Ltd.</small></span>
+  </a>
+  <nav class="hd__quick" aria-label="Sections">
+    <a href="#forge">Products</a><a href="#catalogue">Catalogue</a><a href="#industries">Industries</a><a href="#company">Company</a>
+  </nav>
+  <button class="hd__list" type="button" data-list-open data-cursor="Open"><span>List</span><b data-list-count>0</b></button>
+  <a class="hd__cta" href="#enquiry">Send enquiry</a>
+  <button class="hd__menu" type="button" data-menu aria-expanded="false" aria-controls="menu"><span data-menu-label>Menu</span><i></i><i></i></button>
+</header>
+
+<!-- full-screen menu -->
+<div class="menu" id="menu" data-menu-panel hidden>
+  <div class="menu__photos" aria-hidden="true">
+    <i style="--img:url(../assets/bg/cat-ss.webp)"></i><i style="--img:url(../assets/bg/quality.webp)"></i><i style="--img:url(../assets/bg/refinery-night.webp)"></i><i style="--img:url(../assets/bg/contact.webp)"></i><i style="--img:url(../assets/bg/about.webp)"></i><i style="--img:url(../assets/bg/pipe-yard.webp)"></i>
+  </div>
+  <nav class="menu__links" aria-label="Menu">
+    <a href="#forge" data-photo="0"><small>01</small><span>Product lines</span></a>
+    <a href="#catalogue" data-photo="1"><small>02</small><span>Catalogue</span></a>
+    <a href="#industries" data-photo="2"><small>03</small><span>Industries</span></a>
+    <a href="#process" data-photo="3"><small>04</small><span>How it works</span></a>
+    <a href="#company" data-photo="4"><small>05</small><span>Company</span></a>
+    <a href="#enquiry" data-photo="5"><small>06</small><span>Send enquiry</span></a>
+  </nav>
+  <div class="menu__side mono">
+    <p>Industrial raw material &amp;<br>project material supplier</p>
+    <dl class="menu__lines"><div><dt>Phone</dt><dd data-contact="phone"></dd></div><div><dt>Email</dt><dd data-contact="email"></dd></div><div><dt>Address</dt><dd data-contact="address"></dd></div></dl>
+    <p class="menu__tag">Growing together</p>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- 1 · hero: calm. The logo assembles itself, then floats and breathes -->
+  <section class="hero">
+    <div class="hero__in">
+      <div class="hero__copy">
+        <p class="hero__tag mono" data-intro="1"><i></i>Industrial raw material &amp; project material supplier</p>
+        <h1 class="hero__title">
+          <span class="ln"><span>Steel &amp; piping,</span></span>
+          <span class="ln"><span>delivered</span></span>
+          <span class="ln"><span><em>to site.</em></span></span>
+        </h1>
+        <div class="hero__foot" data-intro="2">
+          <p class="hero__sub">Stainless steel, mild steel, non-ferrous metals, pipe fittings and supports, sourced from established manufacturers for industrial, infrastructure and government projects across India.</p>
+          <div class="hero__acts">
+            <a class="btn btn--ink" href="#enquiry" data-magnet><span>Send requirement</span>{{arr}}</a>
+            <a class="btn btn--line" href="#catalogue" data-magnet><span>Open catalogue</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__logo" data-logo role="img" aria-label="Manorath Enterprises Pvt. Ltd. · Growing together">
+        <div class="hero__rings" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="lg" data-tilt-logo>
+          <svg class="lg__mark" viewBox="-6 -6 289 202" aria-hidden="true">
+            <defs>
+              <!-- the M arrives with the swoosh's groove already cut (lg-cut); drawing a wide stroke along it (lg-sweep) pours the gold in -->
+              <mask id="lg-sweep" maskUnits="userSpaceOnUse" x="-40" y="-40" width="370" height="290"><path class="lg__sweep" d="M-7 217L19.5 188C84.4 117.2 172 63 272.6 75.1L300 78.4" pathLength="1"/></mask>
+              <mask id="lg-cut" maskUnits="userSpaceOnUse" x="-40" y="-40" width="370" height="290">
+                <rect x="-40" y="-40" width="370" height="290" fill="#fff"/>
+                <path d="M1.4 188C67 110.7 165.6 51.2 272.6 75.1C178.5 74.9 101.7 123.7 37.6 188Z" fill="#000" stroke="#000" stroke-width="17.6" stroke-linejoin="round"/>
+              </mask>
+              <linearGradient id="lg-gold" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#a9772b"/><stop offset=".55" stop-color="#c99540"/><stop offset="1" stop-color="#e4b862"/></linearGradient>
+              <linearGradient id="lg-shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff8e6" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+              <clipPath id="lg-clip"><path d="M1.4 188C67 110.7 165.6 51.2 272.6 75.1C178.5 74.9 101.7 123.7 37.6 188Z"/></clipPath>
+            </defs>
+            <g mask="url(#lg-cut)">
+              <path class="lg__maroon" d="M10 1.5L128 96.3L100 118.1L47 75.5L47 155L10 182Z"/>
+              <g class="lg__green"><path d="M128 72.6L223.3 1L225.9 188L184.4 188L185.2 82L124 92L122.4 82.6Z"/><path d="M113.6 137.6L127.3 147.4L172.6 108.6L179.2 103.2L180 94L110 120Z"/></g>
+            </g>
+            <g mask="url(#lg-sweep)">
+              <path d="M1.4 188C67 110.7 165.6 51.2 272.6 75.1C178.5 74.9 101.7 123.7 37.6 188Z" fill="url(#lg-gold)"/>
+              <g clip-path="url(#lg-clip)"><rect class="lg__shine" x="-70" y="40" width="60" height="170" fill="url(#lg-shine)"/></g>
+            </g>
+          </svg>
+          <p class="lg__word" aria-hidden="true">
+            <span class="lg__name"><span style="--i:0">M</span><span style="--i:1">A</span><span style="--i:2">N</span><span style="--i:3">O</span><span style="--i:4">R</span><span style="--i:5">A</span><span style="--i:6">T</span><span style="--i:7">H</span></span>
+            <span class="lg__ent">Enterprises Pvt. Ltd.</span>
+            <span class="lg__tag"><i></i>Growing together<i></i></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="ticker" aria-hidden="true"><div class="ticker__row">{{ticker}}{{ticker}}</div></div>
+  </section>
+
+  <!-- 2 · statement -->
+  <section class="say">
+    <div class="wrap">
+      <p class="say__kick mono" data-reveal>[ 00 ] What we do</p>
+      <p class="say__text" data-reveal data-heat-text>We source, check and deliver the <em>steel</em>, <em>metals</em> and <em>piping</em> your project runs on. One supplier. One list. To project locations across India.</p>
+      <div class="say__nums" data-reveal>
+        <p><b>4</b><span>Product lines</span></p>
+        <p><b>16</b><span>Product groups</span></p>
+        <p><b>8</b><span>Industries supplied</span></p>
+        <p><b>Pan-India</b><span>Delivery to project sites</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · the forge: each product line as a 3D object; click a line, drag to turn -->
+  <section class="forge" id="forge" data-forge>
+    <div class="forge__ghost" aria-hidden="true"><span data-ghost>Stainless</span></div>
+    <div class="wrap forge__grid">
+      <div class="forge__side">
+        <p class="mono forge__kick">[ 01 ] Product lines</p>
+        <div class="forge__tabs" role="tablist" aria-label="Product lines">{{forge_tabs}}</div>
+        <div class="forge__panels">{{forge_panels}}</div>
+      </div>
+      <div class="forge__stage">
+        <canvas class="forge__gl" data-forge-gl data-cursor="Drag"></canvas>
+        <div class="forge__fallback" aria-hidden="true">{{forge_fallback}}</div>
+        <div class="forge__hud mono" aria-hidden="true"><span>Model <b data-forge-no>01</b>/04</span><span data-forge-name>Stainless steel</span><span>Drag to turn</span></div>
+        <i class="forge__corner forge__corner--tl"></i><i class="forge__corner forge__corner--tr"></i><i class="forge__corner forge__corner--bl"></i><i class="forge__corner forge__corner--br"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · catalogue -->
+  <section class="cat" id="catalogue" data-catalogue>
+    <div class="wrap">
+      <div class="cat__head" data-reveal>
+        <div><p class="mono cat__kick">[ 02 ] Catalogue</p><h2>Build your<br><em>enquiry list.</em></h2></div>
+        <p>Pick what you need with <b>Add to list</b>, then send the whole list in one enquiry. No account, no cart, no back and forth.</p>
+      </div>
+      <div class="cat__bar">
+        <div class="cat__tabs" role="tablist" aria-label="Product line">{{cat_tabs}}</div>
+        <label class="cat__search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.7"/></svg><input type="search" placeholder="Search: flange, 316, plate, copper…" aria-label="Search products" data-search></label>
+      </div>
+      <div class="cat__grid">{{cards}}
+      </div>
+      <p class="cat__none" data-none hidden>Nothing matches that. We source customised materials too: <a href="#enquiry">send us your requirement</a>.</p>
+    </div>
+  </section>
+
+  <!-- 5 · industries -->
+  <section class="inds" id="industries">
+    <div class="inds__photo" aria-hidden="true"></div>
+    <div class="wrap inds__head" data-reveal>
+      <p class="mono">[ 03 ] Industries we supply</p>
+      <h2>Where our material goes.</h2>
+    </div>
+    <div class="marq" aria-hidden="true"><div class="marq__row">{{marq_a}}{{marq_a}}</div></div>
+    <div class="marq marq--rev" aria-hidden="true"><div class="marq__row">{{marq_b}}{{marq_b}}</div></div>
+    <div class="wrap">
+      <ol class="inds__grid">{{inds}}</ol>
+    </div>
+  </section>
+
+  <!-- 6 · process: material flows through the line on its own -->
+  <section class="proc" id="process">
+    <div class="wrap">
+      <div class="proc__head" data-reveal>
+        <p class="mono">[ 04 ] How it works</p>
+        <h2>From your list<br>to your <em>site.</em></h2>
+      </div>
+      <div class="proc__line" data-proc>
+        <div class="proc__pipe" aria-hidden="true"><i class="proc__flow"></i></div>
+        <ol class="proc__steps">{{steps}}</ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 · company & strengths -->
+  <section class="co" id="company">
+    <div class="wrap co__grid">
+      <div class="co__side" data-reveal>
+        <p class="mono">[ 05 ] The company</p>
+        <h2>A dependable supply partner for industry.</h2>
+        <p>Manorath Enterprises Private Limited is an industrial trading and supply company engaged in the sourcing and supply of quality industrial raw materials and project materials.</p>
+        <p>We focus on reliable procurement, competitive pricing and timely delivery for industrial, infrastructure and government projects.</p>
+        <img src="assets/logo.webp" alt="Manorath Enterprises Pvt. Ltd. · Growing together" width="527" height="356" loading="lazy">
+      </div>
+      <div class="co__cells">{{strengths}}</div>
+    </div>
+  </section>
+
+  <!-- 8 · vision: the words heat up one after another -->
+  <section class="vis" data-vision>
+    <div class="vis__photo" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="mono vis__kick">[ 06 ] Our vision</p>
+      <p class="vis__text" data-words>{{vision}}</p>
+      <p class="vis__tag mono">Growing together</p>
+    </div>
+  </section>
+
+  <!-- 9 · enquiry -->
+  <section class="enq" id="enquiry">
+    <div class="wrap enq__grid">
+      <div class="enq__side" data-reveal>
+        <p class="mono">[ 07 ] Enquiry</p>
+        <h2>Send the list.<br><em>We'll do the chasing.</em></h2>
+        <p>Material, grade, size, quantity and delivery location. A full material list works too. We'll come back with a competitive quote.</p>
+        <dl class="enq__lines">
+          <div><dt>Phone</dt><dd data-contact="phone"></dd></div>
+          <div><dt>Email</dt><dd data-contact="email"></dd></div>
+          <div><dt>Address</dt><dd data-contact="address"></dd></div>
+        </dl>
+      </div>
+      <form class="form" data-reveal data-quote novalidate>
+        <div class="form__list" data-form-list hidden>
+          <div class="form__list-head"><b>Your list</b><button type="button" data-list-open>Edit list</button></div>
+          <ol data-form-items></ol>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Name *</span><input name="name" autocomplete="name" required></label>
+          <label class="field"><span>Company</span><input name="company" autocomplete="organization"></label>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Phone *</span><input name="phone" type="tel" autocomplete="tel" required></label>
+          <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email"></label>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Product line</span><select name="product"><option value="">Select</option>{{options}}<option>Other / mixed</option></select></label>
+          <label class="field"><span>Delivery location</span><input name="location" placeholder="City, state"></label>
+        </div>
+        <label class="field"><span>Requirement <em data-req>*</em></span><textarea name="message" rows="5" required placeholder="Material, grade, size, quantity"></textarea></label>
+        <button class="btn btn--hot" type="submit" data-magnet><span>Send enquiry</span>{{arr}}</button>
+        <p class="form__note" data-note></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="ft">
+  <div class="wrap ft__top">
+    <nav aria-label="Footer"><a href="#forge">Product lines</a><a href="#catalogue">Catalogue</a><a href="#industries">Industries</a><a href="#process">How it works</a><a href="#company">Company</a><a href="#enquiry">Enquiry</a></nav>
+    <a class="ft__up mono" href="#top">Back to top ↑</a>
+  </div>
+  <p class="ft__word" aria-hidden="true">Manorath</p>
+  <div class="wrap ft__base mono"><span>© <span data-year>2026</span> Manorath Enterprises Private Limited</span><span>Growing together</span></div>
+</footer>
+
+<!-- enquiry-list drawer -->
+<div class="drawer" data-drawer hidden>
+  <div class="drawer__scrim" data-list-close></div>
+  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <div class="drawer__head"><h2 id="drawer-title">Your enquiry list</h2><button type="button" class="drawer__x" data-list-close aria-label="Close">×</button></div>
+    <p class="drawer__hint">Add a size and quantity to each item if you know it. The list goes with your enquiry.</p>
+    <ol class="drawer__items" data-list-items></ol>
+    <div class="drawer__empty" data-list-empty><p>Nothing here yet.</p><p>Use <b>Add to list</b> on any product in the catalogue, then send the whole list in one enquiry.</p><a class="btn btn--wire" href="#catalogue" data-list-close><span>Open the catalogue</span></a></div>
+    <div class="drawer__foot" data-list-foot><a class="btn btn--hot" href="#enquiry" data-list-send><span>Send this list</span>{{arr}}</a><button type="button" class="drawer__clear" data-list-clear>Clear list</button></div>
+  </aside>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+<a class="wa" href="#" data-whatsapp hidden aria-label="Chat on WhatsApp">WhatsApp</a>
+
+<script src="js/main.js?v={{v}}"></script>
+<script src="js/fx.js?v={{v}}"></script>
+<!-- the 3D models (Three.js, ~500 KB) load only when the product section comes near -->
+<script>
+(function () {
+  var sec = document.querySelector('[data-forge]'), done = false;
+  var go = function () { if (done) return; done = true; var m = document.createElement('script'); m.type = 'module'; m.src = 'js/forge.min.js?v={{v}}'; document.body.appendChild(m); };
+  if (!('IntersectionObserver' in window)) return go();
+  var o = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { o.disconnect(); go(); } }, { rootMargin: '900px 0px' });
+  o.observe(sec);
+})();
+</script>
+</body>
+</html>

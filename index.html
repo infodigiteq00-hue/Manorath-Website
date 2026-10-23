@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manorath Enterprises Pvt. Ltd. · Steel, metals &amp; piping, delivered to site</title>
+<meta name="description" content="Manorath Enterprises Private Limited supplies stainless steel, mild steel, aluminium, copper, brass, pipe fittings and pipe supports for industrial, infrastructure and government projects across India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- fonts load without holding up the page or its scripts -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Cinzel:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Cinzel:wght@600;700&display=swap"></noscript>
+<link rel="stylesheet" href="css/style.css?v=53">
+<link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+
+<canvas class="sparks" data-sparks aria-hidden="true"></canvas>
+<div class="cursor" data-cursor-el aria-hidden="true"><i></i><span data-cursor-label></span></div>
+
+<header class="hd" data-header>
+  <a class="hd__brand" href="#top" aria-label="Manorath Enterprises, home">
+    <img src="assets/mark.webp" alt="" width="277" height="190">
+    <span><b>Manorath</b><small>Enterprises Pvt. Ltd.</small></span>
+  </a>
+  <nav class="hd__quick" aria-label="Sections">
+    <a href="#forge">Products</a><a href="#catalogue">Catalogue</a><a href="#industries">Industries</a><a href="#company">Company</a>
+  </nav>
+  <button class="hd__list" type="button" data-list-open data-cursor="Open"><span>List</span><b data-list-count>0</b></button>
+  <a class="hd__cta" href="#enquiry">Send enquiry</a>
+  <button class="hd__menu" type="button" data-menu aria-expanded="false" aria-controls="menu"><span data-menu-label>Menu</span><i></i><i></i></button>
+</header>
+
+<!-- full-screen menu -->
+<div class="menu" id="menu" data-menu-panel hidden>
+  <div class="menu__photos" aria-hidden="true">
+    <i style="--img:url(../assets/bg/cat-ss.webp)"></i><i style="--img:url(../assets/bg/quality.webp)"></i><i style="--img:url(../assets/bg/refinery-night.webp)"></i><i style="--img:url(../assets/bg/contact.webp)"></i><i style="--img:url(../assets/bg/about.webp)"></i><i style="--img:url(../assets/bg/pipe-yard.webp)"></i>
+  </div>
+  <nav class="menu__links" aria-label="Menu">
+    <a href="#forge" data-photo="0"><small>01</small><span>Product lines</span></a>
+    <a href="#catalogue" data-photo="1"><small>02</small><span>Catalogue</span></a>
+    <a href="#industries" data-photo="2"><small>03</small><span>Industries</span></a>
+    <a href="#process" data-photo="3"><small>04</small><span>How it works</span></a>
+    <a href="#company" data-photo="4"><small>05</small><span>Company</span></a>
+    <a href="#enquiry" data-photo="5"><small>06</small><span>Send enquiry</span></a>
+  </nav>
+  <div class="menu__side mono">
+    <p>Industrial raw material &amp;<br>project material supplier</p>
+    <dl class="menu__lines"><div><dt>Phone</dt><dd data-contact="phone"></dd></div><div><dt>Email</dt><dd data-contact="email"></dd></div><div><dt>Address</dt><dd data-contact="address"></dd></div></dl>
+    <p class="menu__tag">Growing together</p>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- 1 · hero: calm. The logo assembles itself, then floats and breathes -->
+  <section class="hero">
+    <div class="hero__in">
+      <div class="hero__copy">
+        <p class="hero__tag mono" data-intro="1"><i></i>Industrial raw material &amp; project material supplier</p>
+        <h1 class="hero__title">
+          <span class="ln"><span>Steel &amp; piping,</span></span>
+          <span class="ln"><span>delivered</span></span>
+          <span class="ln"><span><em>to site.</em></span></span>
+        </h1>
+        <div class="hero__foot" data-intro="2">
+          <p class="hero__sub">Stainless steel, mild steel, non-ferrous metals, pipe fittings and supports, sourced from established manufacturers for industrial, infrastructure and government projects across India.</p>
+          <div class="hero__acts">
+            <a class="btn btn--ink" href="#enquiry" data-magnet><span>Send requirement</span><svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+            <a class="btn btn--line" href="#catalogue" data-magnet><span>Open catalogue</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__logo" data-logo role="img" aria-label="Manorath Enterprises Pvt. Ltd. · Growing together">
+        <div class="hero__rings" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="lg" data-tilt-logo>
+          <svg class="lg__mark" viewBox="-6 -6 289 202" aria-hidden="true">
+            <defs>
+              <!-- the M arrives with the swoosh's groove already cut (lg-cut); drawing a wide stroke along it (lg-sweep) pours the gold in -->
+              <mask id="lg-sweep" maskUnits="userSpaceOnUse" x="-40" y="-40" width="370" height="290"><path class="lg__sweep" d="M-7 217L19.5 188C84.4 117.2 172 63 272.6 75.1L300 78.4" pathLength="1"/></mask>
+              <mask id="lg-cut" maskUnits="userSpaceOnUse" x="-40" y="-40" width="370" height="290">
+                <rect x="-40" y="-40" width="370" height="290" fill="#fff"/>
+                <path d="M1.4 188C67 110.7 165.6 51.2 272.6 75.1C178.5 74.9 101.7 123.7 37.6 188Z" fill="#000" stroke="#000" stroke-width="17.6" stroke-linejoin="round"/>
+              </mask>
+              <linearGradient id="lg-gold" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#a9772b"/><stop offset=".55" stop-color="#c99540"/><stop offset="1" stop-color="#e4b862"/></linearGradient>
+              <linearGradient id="lg-shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff8e6" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+              <clipPath id="lg-clip"><path d="M1.4 188C67 110.7 165.6 51.2 272.6 75.1C178.5 74.9 101.7 123.7 37.6 188Z"/></clipPath>
+            </defs>
+            <g mask="url(#lg-cut)">
+              <path class="lg__maroon" d="M10 1.5L128 96.3L100 118.1L47 75.5L47 155L10 182Z"/>
+              <g class="lg__green"><path d="M128 72.6L223.3 1L225.9 188L184.4 188L185.2 82L124 92L122.4 82.6Z"/><path d="M113.6 137.6L127.3 147.4L172.6 108.6L179.2 103.2L180 94L110 120Z"/></g>
+            </g>
+            <g mask="url(#lg-sweep)">
+              <path d="M1.4 188C67 110.7 165.6 51.2 272.6 75.1C178.5 74.9 101.7 123.7 37.6 188Z" fill="url(#lg-gold)"/>
+              <g clip-path="url(#lg-clip)"><rect class="lg__shine" x="-70" y="40" width="60" height="170" fill="url(#lg-shine)"/></g>
+            </g>
+          </svg>
+          <p class="lg__word" aria-hidden="true">
+            <span class="lg__name"><span style="--i:0">M</span><span style="--i:1">A</span><span style="--i:2">N</span><span style="--i:3">O</span><span style="--i:4">R</span><span style="--i:5">A</span><span style="--i:6">T</span><span style="--i:7">H</span></span>
+            <span class="lg__ent">Enterprises Pvt. Ltd.</span>
+            <span class="lg__tag"><i></i>Growing together<i></i></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="ticker" aria-hidden="true"><div class="ticker__row"><span>Stainless Steel</span><i></i><span>304</span><i></i><span>304L</span><i></i><span>316</span><i></i><span>316L</span><i></i><span>SS Pipes &amp; Tubes</span><i></i><span>SS Sheets &amp; Plates</span><i></i><span>SS Rods, Flats &amp; Sections</span><i></i><span>SS Flanges, Elbows, Tees &amp; Fittings</span><i></i><span>Mild Steel</span><i></i><span>MS</span><i></i><span>Carbon steel</span><i></i><span>MS Pipes &amp; Tubes</span><i></i><span>MS Plates</span><i></i><span>Angles, Channels &amp; Beams</span><i></i><span>Structural &amp; Engineering Materials</span><i></i><span>Non-Ferrous Metals</span><i></i><span>Aluminium</span><i></i><span>Copper</span><i></i><span>Brass</span><i></i><span>Aluminium</span><i></i><span>Copper</span><i></i><span>Brass</span><i></i><span>Industrial Metal Products</span><i></i><span>Piping &amp; Industrial Items</span><i></i><span>Fittings</span><i></i><span>Flanges</span><i></i><span>Supports</span><i></i><span>Pipe Fittings &amp; Flanges</span><i></i><span>Pipe Clamps &amp; Supports</span><i></i><span>Pipe Shoes, Guides &amp; Hangers</span><i></i><span>Brackets, Anchors &amp; Industrial Supports</span><i></i><span>Stainless Steel</span><i></i><span>304</span><i></i><span>304L</span><i></i><span>316</span><i></i><span>316L</span><i></i><span>SS Pipes &amp; Tubes</span><i></i><span>SS Sheets &amp; Plates</span><i></i><span>SS Rods, Flats &amp; Sections</span><i></i><span>SS Flanges, Elbows, Tees &amp; Fittings</span><i></i><span>Mild Steel</span><i></i><span>MS</span><i></i><span>Carbon steel</span><i></i><span>MS Pipes &amp; Tubes</span><i></i><span>MS Plates</span><i></i><span>Angles, Channels &amp; Beams</span><i></i><span>Structural &amp; Engineering Materials</span><i></i><span>Non-Ferrous Metals</span><i></i><span>Aluminium</span><i></i><span>Copper</span><i></i><span>Brass</span><i></i><span>Aluminium</span><i></i><span>Copper</span><i></i><span>Brass</span><i></i><span>Industrial Metal Products</span><i></i><span>Piping &amp; Industrial Items</span><i></i><span>Fittings</span><i></i><span>Flanges</span><i></i><span>Supports</span><i></i><span>Pipe Fittings &amp; Flanges</span><i></i><span>Pipe Clamps &amp; Supports</span><i></i><span>Pipe Shoes, Guides &amp; Hangers</span><i></i><span>Brackets, Anchors &amp; Industrial Supports</span><i></i></div></div>
+  </section>
+
+  <!-- 2 · statement -->
+  <section class="say">
+    <div class="wrap">
+      <p class="say__kick mono" data-reveal>[ 00 ] What we do</p>
+      <p class="say__text" data-reveal data-heat-text>We source, check and deliver the <em>steel</em>, <em>metals</em> and <em>piping</em> your project runs on. One supplier. One list. To project locations across India.</p>
+      <div class="say__nums" data-reveal>
+        <p><b>4</b><span>Product lines</span></p>
+        <p><b>16</b><span>Product groups</span></p>
+        <p><b>8</b><span>Industries supplied</span></p>
+        <p><b>Pan-India</b><span>Delivery to project sites</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · the forge: each product line as a 3D object; click a line, drag to turn -->
+  <section class="forge" id="forge" data-forge>
+    <div class="forge__ghost" aria-hidden="true"><span data-ghost>Stainless</span></div>
+    <div class="wrap forge__grid">
+      <div class="forge__side">
+        <p class="mono forge__kick">[ 01 ] Product lines</p>
+        <div class="forge__tabs" role="tablist" aria-label="Product lines"><button type="button" role="tab" data-line="0" aria-selected="true" data-cursor="View"><small>01</small>Stainless</button><button type="button" role="tab" data-line="1" aria-selected="false" data-cursor="View"><small>02</small>Mild steel</button><button type="button" role="tab" data-line="2" aria-selected="false" data-cursor="View"><small>03</small>Non-ferrous</button><button type="button" role="tab" data-line="3" aria-selected="false" data-cursor="View"><small>04</small>Piping items</button></div>
+        <div class="forge__panels">
+          <article class="fp is-on" data-fp="0">
+            <span class="fp__no" aria-hidden="true">01</span>
+            <h2>Stainless Steel</h2>
+            <p class="fp__tags mono">304 · 304L · 316 · 316L</p>
+            <p class="fp__lede">Pipes, sheets, bars and fittings in the austenitic grades most plants specify, sourced to your size and schedule.</p>
+            <ul><li>SS Pipes &amp; Tubes</li><li>SS Sheets &amp; Plates</li><li>SS Rods, Flats &amp; Sections</li><li>SS Flanges, Elbows, Tees &amp; Fittings</li></ul>
+            <a class="fp__go" href="#catalogue" data-cat-jump="ss">See the 4 items in the catalogue <svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+          </article>
+          <article class="fp" data-fp="1" hidden>
+            <span class="fp__no" aria-hidden="true">02</span>
+            <h2>Mild Steel</h2>
+            <p class="fp__tags mono">MS · Carbon steel</p>
+            <p class="fp__lede">Pipes, plates and structural sections for the frames, platforms and lines that hold a project together.</p>
+            <ul><li>MS Pipes &amp; Tubes</li><li>MS Plates</li><li>Angles, Channels &amp; Beams</li><li>Structural &amp; Engineering Materials</li></ul>
+            <a class="fp__go" href="#catalogue" data-cat-jump="ms">See the 4 items in the catalogue <svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+          </article>
+          <article class="fp" data-fp="2" hidden>
+            <span class="fp__no" aria-hidden="true">03</span>
+            <h2>Non-Ferrous Metals</h2>
+            <p class="fp__tags mono">Aluminium · Copper · Brass</p>
+            <p class="fp__lede">Aluminium, copper and brass for electrical, thermal and engineering work.</p>
+            <ul><li>Aluminium</li><li>Copper</li><li>Brass</li><li>Industrial Metal Products</li></ul>
+            <a class="fp__go" href="#catalogue" data-cat-jump="nf">See the 4 items in the catalogue <svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+          </article>
+          <article class="fp" data-fp="3" hidden>
+            <span class="fp__no" aria-hidden="true">04</span>
+            <h2>Piping &amp; Industrial Items</h2>
+            <p class="fp__tags mono">Fittings · Flanges · Supports</p>
+            <p class="fp__lede">Fittings, flanges and the full set of pipe supports, so a line arrives complete.</p>
+            <ul><li>Pipe Fittings &amp; Flanges</li><li>Pipe Clamps &amp; Supports</li><li>Pipe Shoes, Guides &amp; Hangers</li><li>Brackets, Anchors &amp; Industrial Supports</li></ul>
+            <a class="fp__go" href="#catalogue" data-cat-jump="pi">See the 4 items in the catalogue <svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+          </article></div>
+      </div>
+      <div class="forge__stage">
+        <canvas class="forge__gl" data-forge-gl data-cursor="Drag"></canvas>
+        <div class="forge__fallback" aria-hidden="true"><img src="assets/bg/sm/cat-ss.webp" alt="" data-fb="0" width="640" height="480" loading="lazy" class=is-on><img src="assets/bg/sm/cat-ms.webp" alt="" data-fb="1" width="640" height="480" loading="lazy"><img src="assets/bg/sm/cat-nf.webp" alt="" data-fb="2" width="640" height="480" loading="lazy"><img src="assets/bg/sm/cat-pi.webp" alt="" data-fb="3" width="640" height="480" loading="lazy"></div>
+        <div class="forge__hud mono" aria-hidden="true"><span>Model <b data-forge-no>01</b>/04</span><span data-forge-name>Stainless steel</span><span>Drag to turn</span></div>
+        <i class="forge__corner forge__corner--tl"></i><i class="forge__corner forge__corner--tr"></i><i class="forge__corner forge__corner--bl"></i><i class="forge__corner forge__corner--br"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · catalogue -->
+  <section class="cat" id="catalogue" data-catalogue>
+    <div class="wrap">
+      <div class="cat__head" data-reveal>
+        <div><p class="mono cat__kick">[ 02 ] Catalogue</p><h2>Build your<br><em>enquiry list.</em></h2></div>
+        <p>Pick what you need with <b>Add to list</b>, then send the whole list in one enquiry. No account, no cart, no back and forth.</p>
+      </div>
+      <div class="cat__bar">
+        <div class="cat__tabs" role="tablist" aria-label="Product line"><button type="button" role="tab" data-filter="all" aria-selected="true">All<sup>16</sup></button><button type="button" role="tab" data-filter="ss" aria-selected="false">Stainless<sup>4</sup></button><button type="button" role="tab" data-filter="ms" aria-selected="false">Mild steel<sup>4</sup></button><button type="button" role="tab" data-filter="nf" aria-selected="false">Non-ferrous<sup>4</sup></button><button type="button" role="tab" data-filter="pi" aria-selected="false">Piping items<sup>4</sup></button></div>
+        <label class="cat__search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.7"/></svg><input type="search" placeholder="Search: flange, 316, plate, copper…" aria-label="Search products" data-search></label>
+      </div>
+      <div class="cat__grid">
+        <article class="pc" data-cat="ss" data-text="ss pipes &amp; tubes stainless steel pipes tubes sizes and schedules as specified 304 304l 316 316l" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ss-pipes.webp" alt="SS Pipes &amp; Tubes" width="640" height="480" loading="lazy"><span class="pc__no mono">01.1</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Stainless Steel</p>
+            <h3>SS Pipes &amp; Tubes</h3>
+            <p class="pc__forms">Pipes · Tubes · Sizes and schedules as specified</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Grade, outside diameter, schedule or wall thickness, length, quantity</p>
+            <button class="add" type="button" data-add="ss-pipes" data-name="SS Pipes &amp; Tubes" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="ss" data-text="ss sheets &amp; plates stainless steel sheets plates thickness and size as specified 304 304l 316 316l" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ss-sheets.webp" alt="SS Sheets &amp; Plates" width="640" height="480" loading="lazy"><span class="pc__no mono">01.2</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Stainless Steel</p>
+            <h3>SS Sheets &amp; Plates</h3>
+            <p class="pc__forms">Sheets · Plates · Thickness and size as specified</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Grade, thickness, width × length, finish, quantity</p>
+            <button class="add" type="button" data-add="ss-sheets" data-name="SS Sheets &amp; Plates" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="ss" data-text="ss rods, flats &amp; sections stainless steel round rods flats angles &amp; sections 304 304l 316 316l" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ss-rods.webp" alt="SS Rods, Flats &amp; Sections" width="640" height="480" loading="lazy"><span class="pc__no mono">01.3</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Stainless Steel</p>
+            <h3>SS Rods, Flats &amp; Sections</h3>
+            <p class="pc__forms">Round rods · Flats · Angles &amp; sections</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Grade, profile, size, length, quantity</p>
+            <button class="add" type="button" data-add="ss-rods" data-name="SS Rods, Flats &amp; Sections" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="ss" data-text="ss flanges, elbows, tees &amp; fittings stainless steel flanges elbows tees reducers &amp; other fittings 304 304l 316 316l" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ss-fittings.webp" alt="SS Flanges, Elbows, Tees &amp; Fittings" width="640" height="480" loading="lazy"><span class="pc__no mono">01.4</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Stainless Steel</p>
+            <h3>SS Flanges, Elbows, Tees &amp; Fittings</h3>
+            <p class="pc__forms">Flanges · Elbows · Tees · Reducers &amp; other fittings</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Grade, type, size, pressure rating or schedule, quantity</p>
+            <button class="add" type="button" data-add="ss-fittings" data-name="SS Flanges, Elbows, Tees &amp; Fittings" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="ms" data-text="ms pipes &amp; tubes mild steel pipes tubes sizes as specified ms carbon steel" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ms-pipes.webp" alt="MS Pipes &amp; Tubes" width="640" height="480" loading="lazy"><span class="pc__no mono">02.1</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Mild Steel</p>
+            <h3>MS Pipes &amp; Tubes</h3>
+            <p class="pc__forms">Pipes · Tubes · Sizes as specified</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Size, wall thickness or class, length, quantity</p>
+            <button class="add" type="button" data-add="ms-pipes" data-name="MS Pipes &amp; Tubes" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="ms" data-text="ms plates mild steel plates chequered plates cut sizes on request ms carbon steel" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ms-plates.webp" alt="MS Plates" width="640" height="480" loading="lazy"><span class="pc__no mono">02.2</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Mild Steel</p>
+            <h3>MS Plates</h3>
+            <p class="pc__forms">Plates · Chequered plates · Cut sizes on request</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Thickness, width × length, type, quantity</p>
+            <button class="add" type="button" data-add="ms-plates" data-name="MS Plates" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="ms" data-text="angles, channels &amp; beams mild steel angles channels beams ms carbon steel" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ms-sections.webp" alt="Angles, Channels &amp; Beams" width="640" height="480" loading="lazy"><span class="pc__no mono">02.3</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Mild Steel</p>
+            <h3>Angles, Channels &amp; Beams</h3>
+            <p class="pc__forms">Angles · Channels · Beams</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Section and size, length, quantity</p>
+            <button class="add" type="button" data-add="ms-sections" data-name="Angles, Channels &amp; Beams" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="ms" data-text="structural &amp; engineering materials mild steel structural steel engineering material as per your list ms carbon steel" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/ms-structural.webp" alt="Structural &amp; Engineering Materials" width="640" height="480" loading="lazy"><span class="pc__no mono">02.4</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Mild Steel</p>
+            <h3>Structural &amp; Engineering Materials</h3>
+            <p class="pc__forms">Structural steel · Engineering material · As per your list</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Your material list, or drawing references</p>
+            <button class="add" type="button" data-add="ms-structural" data-name="Structural &amp; Engineering Materials" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="nf" data-text="aluminium non-ferrous metals sheets sections as specified aluminium copper brass" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/nf-aluminium.webp" alt="Aluminium" width="640" height="480" loading="lazy"><span class="pc__no mono">03.1</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Non-Ferrous Metals</p>
+            <h3>Aluminium</h3>
+            <p class="pc__forms">Sheets · Sections · As specified</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Form, alloy if specified, size, quantity</p>
+            <button class="add" type="button" data-add="nf-aluminium" data-name="Aluminium" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="nf" data-text="copper non-ferrous metals pipes &amp; tubes fittings bars &amp; strips aluminium copper brass" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/nf-copper.webp" alt="Copper" width="640" height="480" loading="lazy"><span class="pc__no mono">03.2</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Non-Ferrous Metals</p>
+            <h3>Copper</h3>
+            <p class="pc__forms">Pipes &amp; tubes · Fittings · Bars &amp; strips</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Form, size, quantity</p>
+            <button class="add" type="button" data-add="nf-copper" data-name="Copper" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="nf" data-text="brass non-ferrous metals rods fittings as specified aluminium copper brass" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/nf-brass.webp" alt="Brass" width="640" height="480" loading="lazy"><span class="pc__no mono">03.3</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Non-Ferrous Metals</p>
+            <h3>Brass</h3>
+            <p class="pc__forms">Rods · Fittings · As specified</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Form, size, quantity</p>
+            <button class="add" type="button" data-add="nf-brass" data-name="Brass" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="nf" data-text="industrial metal products non-ferrous metals as per your list aluminium copper brass" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/nf-products.webp" alt="Industrial Metal Products" width="640" height="480" loading="lazy"><span class="pc__no mono">03.4</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Non-Ferrous Metals</p>
+            <h3>Industrial Metal Products</h3>
+            <p class="pc__forms">As per your list</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Your material list</p>
+            <button class="add" type="button" data-add="nf-products" data-name="Industrial Metal Products" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="pi" data-text="pipe fittings &amp; flanges piping &amp; industrial items flanges elbows &amp; bends tees &amp; reducers fittings flanges supports" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/pi-fittings.webp" alt="Pipe Fittings &amp; Flanges" width="640" height="480" loading="lazy"><span class="pc__no mono">04.1</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Piping &amp; Industrial Items</p>
+            <h3>Pipe Fittings &amp; Flanges</h3>
+            <p class="pc__forms">Flanges · Elbows &amp; bends · Tees &amp; reducers</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Material, type, size, rating, quantity</p>
+            <button class="add" type="button" data-add="pi-fittings" data-name="Pipe Fittings &amp; Flanges" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="pi" data-text="pipe clamps &amp; supports piping &amp; industrial items u-clamps pipe clamps supports fittings flanges supports" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/pi-clamps.webp" alt="Pipe Clamps &amp; Supports" width="640" height="480" loading="lazy"><span class="pc__no mono">04.2</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Piping &amp; Industrial Items</p>
+            <h3>Pipe Clamps &amp; Supports</h3>
+            <p class="pc__forms">U-clamps · Pipe clamps · Supports</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Pipe size, type, material, quantity</p>
+            <button class="add" type="button" data-add="pi-clamps" data-name="Pipe Clamps &amp; Supports" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="pi" data-text="pipe shoes, guides &amp; hangers piping &amp; industrial items pipe shoes guides hangers fittings flanges supports" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/pi-hangers.webp" alt="Pipe Shoes, Guides &amp; Hangers" width="640" height="480" loading="lazy"><span class="pc__no mono">04.3</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Piping &amp; Industrial Items</p>
+            <h3>Pipe Shoes, Guides &amp; Hangers</h3>
+            <p class="pc__forms">Pipe shoes · Guides · Hangers</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Pipe size, type, insulation thickness if any, quantity</p>
+            <button class="add" type="button" data-add="pi-hangers" data-name="Pipe Shoes, Guides &amp; Hangers" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+        <article class="pc" data-cat="pi" data-text="brackets, anchors &amp; industrial supports piping &amp; industrial items brackets anchors industrial supports fittings flanges supports" data-tilt>
+          <div class="pc__img"><img src="assets/products/sm/pi-brackets.webp" alt="Brackets, Anchors &amp; Industrial Supports" width="640" height="480" loading="lazy"><span class="pc__no mono">04.4</span></div>
+          <div class="pc__body">
+            <p class="pc__cat mono">Piping &amp; Industrial Items</p>
+            <h3>Brackets, Anchors &amp; Industrial Supports</h3>
+            <p class="pc__forms">Brackets · Anchors · Industrial supports</p>
+            <p class="pc__ask"><small class="mono">To quote</small>Type, size, load or drawing reference, quantity</p>
+            <button class="add" type="button" data-add="pi-brackets" data-name="Brackets, Anchors &amp; Industrial Supports" data-cursor="Add"><i aria-hidden="true"></i><span>Add to list</span></button>
+          </div>
+        </article>
+      </div>
+      <p class="cat__none" data-none hidden>Nothing matches that. We source customised materials too: <a href="#enquiry">send us your requirement</a>.</p>
+    </div>
+  </section>
+
+  <!-- 5 · industries -->
+  <section class="inds" id="industries">
+    <div class="inds__photo" aria-hidden="true"></div>
+    <div class="wrap inds__head" data-reveal>
+      <p class="mono">[ 03 ] Industries we supply</p>
+      <h2>Where our material goes.</h2>
+    </div>
+    <div class="marq" aria-hidden="true"><div class="marq__row"><span>Chemical</span><i></i><span>Petrochemical</span><i></i><span>Refinery</span><i></i><span>Power</span><i></i><span>Chemical</span><i></i><span>Petrochemical</span><i></i><span>Refinery</span><i></i><span>Power</span><i></i></div></div>
+    <div class="marq marq--rev" aria-hidden="true"><div class="marq__row"><span>Engineering</span><i></i><span>Infrastructure</span><i></i><span>Railway</span><i></i><span>Government projects</span><i></i><span>Engineering</span><i></i><span>Infrastructure</span><i></i><span>Railway</span><i></i><span>Government projects</span><i></i></div></div>
+    <div class="wrap">
+      <ol class="inds__grid"><li data-reveal><span class="mono">01</span><b>Chemical</b><p>Corrosive media and frequent cleaning call for stainless lines with matching fittings, flanges and supports.</p><small class="mono">Stainless · Piping items</small></li><li data-reveal><span class="mono">02</span><b>Petrochemical</b><p>Long runs of process and utility piping on racks, and the structural steel that carries them.</p><small class="mono">Stainless · Mild steel · Piping items</small></li><li data-reveal><span class="mono">03</span><b>Refinery</b><p>Process piping, flanges and the full set of shoes, guides and anchors for hot, moving lines.</p><small class="mono">Stainless · Piping items · Mild steel</small></li><li data-reveal><span class="mono">04</span><b>Power</b><p>Structural steel, pipe supports, and copper and aluminium for electrical and earthing work.</p><small class="mono">Mild steel · Non-ferrous · Piping items</small></li><li data-reveal><span class="mono">05</span><b>Engineering</b><p>Plates, bars, sections and non-ferrous stock for fabrication shops and machine builders.</p><small class="mono">Mild steel · Stainless · Non-ferrous</small></li><li data-reveal><span class="mono">06</span><b>Infrastructure</b><p>Structural sections, plates and pipes in bulk, delivered on the project schedule.</p><small class="mono">Mild steel · Piping items</small></li><li data-reveal><span class="mono">07</span><b>Railway</b><p>Structural steel and engineering material, along with non-ferrous items for electrical work.</p><small class="mono">Mild steel · Non-ferrous</small></li><li data-reveal><span class="mono">08</span><b>Government projects</b><p>Project-wise supply against a schedule and a material list, delivered to site.</p><small class="mono">Mild steel · Stainless · Non-ferrous · Piping items</small></li></ol>
+    </div>
+  </section>
+
+  <!-- 6 · process: material flows through the line on its own -->
+  <section class="proc" id="process">
+    <div class="wrap">
+      <div class="proc__head" data-reveal>
+        <p class="mono">[ 04 ] How it works</p>
+        <h2>From your list<br>to your <em>site.</em></h2>
+      </div>
+      <div class="proc__line" data-proc>
+        <div class="proc__pipe" aria-hidden="true"><i class="proc__flow"></i></div>
+        <ol class="proc__steps"><li data-reveal><i class="proc__node" aria-hidden="true"></i><span class="mono">01</span><h3>Send your list</h3><p>Material, grade, size, quantity and delivery location. A full material list or drawing schedule works too.</p></li><li data-reveal><i class="proc__node" aria-hidden="true"></i><span class="mono">02</span><h3>We source it</h3><p>From established manufacturers and stockists, picked for the material and the quantity.</p></li><li data-reveal><i class="proc__node" aria-hidden="true"></i><span class="mono">03</span><h3>Checked to spec</h3><p>Grade, size and quantity are checked against what you asked for.</p></li><li data-reveal><i class="proc__node" aria-hidden="true"></i><span class="mono">04</span><h3>You get a quote</h3><p>A competitive price for the whole list, so you are not chasing five suppliers.</p></li><li data-reveal><i class="proc__node" aria-hidden="true"></i><span class="mono">05</span><h3>Delivered to site</h3><p>In one lot or project-wise, to your project location anywhere in India.</p></li></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 · company & strengths -->
+  <section class="co" id="company">
+    <div class="wrap co__grid">
+      <div class="co__side" data-reveal>
+        <p class="mono">[ 05 ] The company</p>
+        <h2>A dependable supply partner for industry.</h2>
+        <p>Manorath Enterprises Private Limited is an industrial trading and supply company engaged in the sourcing and supply of quality industrial raw materials and project materials.</p>
+        <p>We focus on reliable procurement, competitive pricing and timely delivery for industrial, infrastructure and government projects.</p>
+        <img src="assets/logo.webp" alt="Manorath Enterprises Pvt. Ltd. · Growing together" width="527" height="356" loading="lazy">
+      </div>
+      <div class="co__cells"><article data-reveal data-wipe><span class="mono">01</span><h3>Reliable sourcing</h3><p>From established manufacturers and stockists.</p></article><article data-reveal data-wipe><span class="mono">02</span><h3>Competitive pricing</h3><p>Project pricing that respects your budget.</p></article><article data-reveal data-wipe><span class="mono">03</span><h3>Bulk &amp; project-wise</h3><p>A single order or a full project schedule.</p></article><article data-reveal data-wipe><span class="mono">04</span><h3>Quality-focused</h3><p>Procurement checked against your specification.</p></article><article data-reveal data-wipe><span class="mono">05</span><h3>Timely delivery</h3><p>To project locations across India.</p></article><article data-reveal data-wipe><span class="mono">06</span><h3>Customised sourcing</h3><p>Whatever your requirement calls for.</p></article></div>
+    </div>
+  </section>
+
+  <!-- 8 · vision: the words heat up one after another -->
+  <section class="vis" data-vision>
+    <div class="vis__photo" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="mono vis__kick">[ 06 ] Our vision</p>
+      <p class="vis__text" data-words>To become a trusted and dependable industrial material supply partner for customers across India, through quality, competitive pricing and timely service.</p>
+      <p class="vis__tag mono">Growing together</p>
+    </div>
+  </section>
+
+  <!-- 9 · enquiry -->
+  <section class="enq" id="enquiry">
+    <div class="wrap enq__grid">
+      <div class="enq__side" data-reveal>
+        <p class="mono">[ 07 ] Enquiry</p>
+        <h2>Send the list.<br><em>We'll do the chasing.</em></h2>
+        <p>Material, grade, size, quantity and delivery location. A full material list works too. We'll come back with a competitive quote.</p>
+        <dl class="enq__lines">
+          <div><dt>Phone</dt><dd data-contact="phone"></dd></div>
+          <div><dt>Email</dt><dd data-contact="email"></dd></div>
+          <div><dt>Address</dt><dd data-contact="address"></dd></div>
+        </dl>
+      </div>
+      <form class="form" data-reveal data-quote novalidate>
+        <div class="form__list" data-form-list hidden>
+          <div class="form__list-head"><b>Your list</b><button type="button" data-list-open>Edit list</button></div>
+          <ol data-form-items></ol>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Name *</span><input name="name" autocomplete="name" required></label>
+          <label class="field"><span>Company</span><input name="company" autocomplete="organization"></label>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Phone *</span><input name="phone" type="tel" autocomplete="tel" required></label>
+          <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email"></label>
+        </div>
+        <div class="form__row">
+          <label class="field"><span>Product line</span><select name="product"><option value="">Select</option><option>Stainless Steel</option><option>Mild Steel</option><option>Non-Ferrous Metals</option><option>Piping &amp; Industrial Items</option><option>Other / mixed</option></select></label>
+          <label class="field"><span>Delivery location</span><input name="location" placeholder="City, state"></label>
+        </div>
+        <label class="field"><span>Requirement <em data-req>*</em></span><textarea name="message" rows="5" required placeholder="Material, grade, size, quantity"></textarea></label>
+        <button class="btn btn--hot" type="submit" data-magnet><span>Send enquiry</span><svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+        <p class="form__note" data-note></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="ft">
+  <div class="wrap ft__top">
+    <nav aria-label="Footer"><a href="#forge">Product lines</a><a href="#catalogue">Catalogue</a><a href="#industries">Industries</a><a href="#process">How it works</a><a href="#company">Company</a><a href="#enquiry">Enquiry</a></nav>
+    <a class="ft__up mono" href="#top">Back to top ↑</a>
+  </div>
+  <p class="ft__word" aria-hidden="true">Manorath</p>
+  <div class="wrap ft__base mono"><span>© <span data-year>2026</span> Manorath Enterprises Private Limited</span><span>Growing together</span></div>
+</footer>
+
+<!-- enquiry-list drawer -->
+<div class="drawer" data-drawer hidden>
+  <div class="drawer__scrim" data-list-close></div>
+  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <div class="drawer__head"><h2 id="drawer-title">Your enquiry list</h2><button type="button" class="drawer__x" data-list-close aria-label="Close">×</button></div>
+    <p class="drawer__hint">Add a size and quantity to each item if you know it. The list goes with your enquiry.</p>
+    <ol class="drawer__items" data-list-items></ol>
+    <div class="drawer__empty" data-list-empty><p>Nothing here yet.</p><p>Use <b>Add to list</b> on any product in the catalogue, then send the whole list in one enquiry.</p><a class="btn btn--wire" href="#catalogue" data-list-close><span>Open the catalogue</span></a></div>
+    <div class="drawer__foot" data-list-foot><a class="btn btn--hot" href="#enquiry" data-list-send><span>Send this list</span><svg class="arr" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a><button type="button" class="drawer__clear" data-list-clear>Clear list</button></div>
+  </aside>
+</div>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+<a class="wa" href="#" data-whatsapp hidden aria-label="Chat on WhatsApp">WhatsApp</a>
+
+<script src="js/main.js?v=53"></script>
+<script src="js/fx.js?v=53"></script>
+<!-- the 3D models (Three.js, ~500 KB) load only when the product section comes near -->
+<script>
+(function () {
+  var sec = document.querySelector('[data-forge]'), done = false;
+  var go = function () { if (done) return; done = true; var m = document.createElement('script'); m.type = 'module'; m.src = 'js/forge.min.js?v=53'; document.body.appendChild(m); };
+  if (!('IntersectionObserver' in window)) return go();
+  var o = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { o.disconnect(); go(); } }, { rootMargin: '900px 0px' });
+  o.observe(sec);
+})();
+</script>
+</body>
+</html>
